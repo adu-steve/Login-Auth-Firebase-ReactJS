@@ -37,6 +37,7 @@ function Profile() {
         <>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <img
+              alt={""}
               src={userDetails.photo}
               width={"40%"}
               style={{ borderRadius: "50%" }}

@@ -21,8 +21,9 @@ function Register() {
           email: user.email,
           firstName: fname,
           lastName: lname,
-          photo:""
+          photo: "",
         });
+        window.location.href = "/login";
       }
       console.log("User Registered Successfully!!");
       toast.success("User Registered Successfully!!", {
